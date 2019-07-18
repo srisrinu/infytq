@@ -2,9 +2,9 @@
 def uniqueCount(arr,n):
     c=0
     for i in arr[0:]:
-        #i-=1
+        
         arr.remove(i)
-        #i+=1
+        
         c+=1
         if(c==n):
             break
