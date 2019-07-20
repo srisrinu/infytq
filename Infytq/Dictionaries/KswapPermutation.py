@@ -17,6 +17,7 @@ def printArray(arr):
         print(arr[i],end=" ")
 if __name__=="__main__":
     arr=list(map(int,input().split()))
-    n,k=map(int,input().split())
+    n=len(arr)
+    k=int(input())
     KSwapPermutation(arr,n,k)
     printArray(arr)
